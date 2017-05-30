@@ -14,6 +14,8 @@ An OpenGL mesh viewer with a GUI menu of functionalities implemented with Qt.
 
 2  Coding Environment & 3rd Party Library
 --------------------------------------------
+- C++
+- freeglut
 - Qt5.8.0(for Windows 32-bit, VS2015)
 - Assimp (For importing mesh model)   http://assimp.sourceforge.net/
 - IL (For processing image data)
@@ -22,12 +24,33 @@ An OpenGL mesh viewer with a GUI menu of functionalities implemented with Qt.
 3  Effect screenshots
 --------------------------------------------
 - 3 display mode: Flatlines, Wireframe, Flat
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/display.png)
+
 - 3 transform: Translation, Rotation and Scale
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/transform.png)
+
 - Texture mapping
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/textureOn.png)
+
 - Color overlay
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/color.png)
+
 - 3 shading mode: Flat Shading, Gouraud Shading and Phong Shading
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/shading.png)
+
 - Read in different types of mesh model:
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/models.png)
+
 - Mid point subdivision
+
+![Image text](https://github.com/MarkMoHR/Mesh-Viewer/raw/master/EffectScreenshots/subdivision.png)
+
 
 4  Executable program
 --------------------------------------------
