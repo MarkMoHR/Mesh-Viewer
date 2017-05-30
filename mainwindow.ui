@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mesh Viewer</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="OpenglWindow" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>600</width>
+      <height>543</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuDisplay_Mode">
+    <property name="title">
+     <string>Display Mode</string>
+    </property>
+    <addaction name="actionWireframe"/>
+    <addaction name="actionFlat"/>
+    <addaction name="actionFlatlines"/>
+   </widget>
+   <widget class="QMenu" name="menuShading_Mode">
+    <property name="title">
+     <string>Shading Mode</string>
+    </property>
+    <addaction name="actionGouraud_Shading"/>
+    <addaction name="actionPhong_Shading"/>
+    <addaction name="actionFlat_Shading"/>
+   </widget>
+   <widget class="QMenu" name="menuTexture">
+    <property name="title">
+     <string>Texture</string>
+    </property>
+    <addaction name="actionTextureOn"/>
+    <addaction name="actionTextureOff"/>
+   </widget>
+   <widget class="QMenu" name="menuColor">
+    <property name="title">
+     <string>Color</string>
+    </property>
+    <addaction name="actionColorNone"/>
+    <addaction name="actionColorRed"/>
+    <addaction name="actionColorGreen"/>
+   </widget>
+   <widget class="QMenu" name="menuTransform">
+    <property name="title">
+     <string>Transform</string>
+    </property>
+    <addaction name="actionRotate"/>
+    <addaction name="actionTranslate"/>
+   </widget>
+   <widget class="QMenu" name="menuSubdivision">
+    <property name="title">
+     <string>Subdivision</string>
+    </property>
+    <addaction name="actionSubdivisionOn"/>
+    <addaction name="actionSubdivisionOff"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuDisplay_Mode"/>
+   <addaction name="menuShading_Mode"/>
+   <addaction name="menuTexture"/>
+   <addaction name="menuColor"/>
+   <addaction name="menuTransform"/>
+   <addaction name="menuSubdivision"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionWireframe">
+   <property name="text">
+    <string>Wireframe</string>
+   </property>
+  </action>
+  <action name="actionFlat">
+   <property name="text">
+    <string>Flat</string>
+   </property>
+  </action>
+  <action name="actionFlatlines">
+   <property name="text">
+    <string>Flatlines</string>
+   </property>
+  </action>
+  <action name="actionGouraud_Shading">
+   <property name="text">
+    <string>Gouraud Shading</string>
+   </property>
+  </action>
+  <action name="actionPhong_Shading">
+   <property name="text">
+    <string>Phong Shading</string>
+   </property>
+  </action>
+  <action name="actionTextureOn">
+   <property name="text">
+    <string>TextureOn</string>
+   </property>
+  </action>
+  <action name="actionTextureOff">
+   <property name="text">
+    <string>TextureOff</string>
+   </property>
+  </action>
+  <action name="actionColorNone">
+   <property name="text">
+    <string>ColorNone</string>
+   </property>
+  </action>
+  <action name="actionColorRed">
+   <property name="text">
+    <string>ColorRed</string>
+   </property>
+  </action>
+  <action name="actionColorGreen">
+   <property name="text">
+    <string>ColorGreen</string>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="text">
+    <string>Rotate</string>
+   </property>
+  </action>
+  <action name="actionTranslate">
+   <property name="text">
+    <string>Translate</string>
+   </property>
+  </action>
+  <action name="actionFlat_Shading">
+   <property name="text">
+    <string>Flat Shading</string>
+   </property>
+  </action>
+  <action name="actionSubdivisionOn">
+   <property name="text">
+    <string>SubdivisionOn</string>
+   </property>
+  </action>
+  <action name="actionSubdivisionOff">
+   <property name="text">
+    <string>SubdivisionOff</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>OpenglWindow</class>
+   <extends>QWidget</extends>
+   <header>openglwindow.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

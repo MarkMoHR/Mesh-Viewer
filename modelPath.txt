@@ -1,0 +1,8 @@
+Resources/Duck/duck_triangulate.dae
+#Resources/X/dwarf.x
+#Resources/nanosuit/nanosuit.obj
+
+################################################
+  可选择3种类型的模型中的一个，
+  注释掉（前面加‘#’）其余2个即可
+################################################
