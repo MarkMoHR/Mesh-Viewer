@@ -2,7 +2,7 @@ Resources/Duck/duck_triangulate.dae
 #Resources/X/dwarf.x
 #Resources/nanosuit/nanosuit.obj
 
-################################################
-  choose one of the three type of models£¬
-  add ¡®#¡¯ to the head of the other two
-################################################
+#####################################################
+  Choose one of the three type of models.
+    Add '#' to the head of the other two is OK!
+#####################################################
