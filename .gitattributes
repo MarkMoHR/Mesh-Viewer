@@ -1,2 +1,3 @@
 *.obj linguist-language=C++
 *.mtl linguist-language=C++
+Logos linguist-language=C++
