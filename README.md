@@ -17,7 +17,7 @@ An OpenGL mesh viewer with a GUI menu of functionalities implemented with Qt.
 - C++
 - freeglut
 - Qt5.8.0(for Windows 32-bit, VS2015)
-- Assimp (For importing mesh model)   http://assimp.sourceforge.net/
+- Assimp (For importing mesh model) https://github.com/assimp/assimp
 - IL (For processing image data)
 
 
